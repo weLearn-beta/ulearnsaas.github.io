@@ -2025,3 +2025,33 @@ figure figcaption {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
+
+.alertBox {
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+  display: none;
+}
+
+.alertBox2 {
+  padding: 20px;
+  background-color: #343a40;
+  color: white;
+  display: none;
+}
+
+.alertclosebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.alertclosebtn:hover {
+  color: black;
+}
+
