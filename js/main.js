@@ -359,7 +359,7 @@ $.postJSON = function(url, data, callback) {
 				subject: $("#subject").val() + " " + $("#email").val(),
 				message: $("#message").val()
 			};
-			$.postJSON("https://localhost:5001/users", contactDetail, function (data) {
+			$.postJSON("https://ulearnsaas.azurewebsites.net/users", contactDetail, function (data) {
 				console.log("chl Gaya");
 			});
 			$("#fname").val("");
@@ -379,7 +379,7 @@ $.postJSON = function(url, data, callback) {
 				subject: "subscribe: " + $("#subscriber-email").val(),
 				message: $("#subscriber-email").val()
 			};
-			$.postJSON("https://localhost:5001/users", subscriber, function (data) {
+			$.postJSON("https://ulearnsaas.azurewebsites.net/users", subscriber, function (data) {
 				console.log("chl Gaya");
 			});
 			$("#subscriber-email").val("");
